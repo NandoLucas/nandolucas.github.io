@@ -1,0 +1,217 @@
+#body{
+	padding: 0px;
+}
+
+#quad{
+	padding: 1em;
+	width: 200px;
+	height: 200px;
+}
+
+#button{
+	width: 50px;
+	height: 50px;
+}
+
+#insta{
+	padding: 1em;
+	width: 200px;
+	height: 200px;
+}
+
+#img{
+	height: 300px;
+	width: 310px;
+	border: 1px solid black;
+}
+
+#nome{
+	text-align: center;
+	color: white;
+}
+
+#resumo{
+	background-color: white;
+	text-align: center;
+	padding: 2em;
+}
+
+#caracter1{
+	margin-top: 1em;
+	width: 380px;
+	height: 412.5px;
+	border: 5px solid #bfbfbf;
+	border-radius: 5px gray;
+}
+
+#trajetoria{
+	background-color: white;
+	text-align: center;
+	padding: 2em;
+}
+
+#caracter{
+	margin-top: 3em;
+	width: 350px;
+	height: 467px;
+}
+
+#curiosidades{
+	background-color: white;
+	text-align: center;
+	padding: 2em;
+}
+
+#caracter2{
+	margin-top: 2em;
+	width: 400px;
+	height: 233px;
+}
+
+#contato{
+	background-color: black;
+	padding: 2em;
+}	
+
+#titulo{
+	color: gold;
+	text-transform: uppercase;
+	font-family: "Baloo Chettan";
+}
+
+#icon-s-q {
+	height: 50px;
+	width: 50px;
+}
+
+.img1{
+	margin-top: 5em;
+	padding: 3em;
+	height: 700px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: gold;
+}
+
+.nav-link{
+	text-transform: uppercase;
+	font-family: "Baloo Chettan";
+	font-size: 20px;
+}
+
+.navbar-collapse{
+	display: flex;
+	justify-content: flex-end !important;
+}
+
+
+.navbar{
+	background-color: rgba(51, 51, 51, 1) !important;
+}
+
+.botao {
+	text-transform: uppercase;
+	font-family: "Baloo Chettan";
+	font-size: 30px;
+	letter-spacing: 1px;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.btn-dark:active, .btn-dark:hover {
+	background-color: gold !important;
+	border-color: rgb(40, 45, 65) !important;
+}
+
+.btn-xl{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: yellow !important;
+	color: black !important;
+	margin-bottom: 10px;
+	font-family: "Baloo Chettan";
+}
+
+.rounded{
+	width: 500px;
+	height: 333px;
+}
+
+.rounded-circle{
+	height: 50px;
+	width: 60px;
+}
+
+.row{
+	padding: 2em;
+	border-top: 1px solid gray;
+}
+
+.central-icon{
+	width: 200px;
+	height: 50px;
+}
+
+.fab .fa-instagram{
+	width: 50px;
+	height: 50px;
+}
+.fab{
+	color: white;
+	font-size: 50px;
+}
+
+.fab:hover{
+	color: gold;
+}
+
+body{
+	background-image: url(./imagens/acreditar-ajuda-comunicacao-355988.jpg);
+}
+
+p{
+	font-family: "Montserrat";
+	text-align: justify;
+	z-index: 1;
+	font-size: 20px;
+}
+
+li{
+	font-family: "Baloo Chettan";
+	font-size: 20px;
+}
+
+label, h3{
+	color: white;
+	font-family: "Baloo Chettan";
+}
+
+h1{
+	font-family: "Baloo Chettan";
+	text-align: left;
+}
+
+a {
+	color: gold;
+	text-transform: uppercase;
+}
+
+a:hover{
+	color: black;
+}
+
+footer{
+	height: 50px;
+	padding: 1em;
+	background-color: white;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+}
