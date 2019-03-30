@@ -30,7 +30,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 390px;
+	min-width: 500px;
 
 }
 
@@ -46,7 +46,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 390px;
+	min-width: 500px;
 }
 
 #caracter{
@@ -59,7 +59,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 390px;
+	min-width: 500px;
 }
 
 #caracter2{
@@ -71,7 +71,7 @@
 #contato{
 	background-color: black;
 	padding: 2em;
-	min-width: 390px;
+	min-width: 500px;
 }	
 
 #titulo{
@@ -227,5 +227,5 @@ footer{
 	text-transform: uppercase;
 	color: black;
 	text-align: center;
-	min-width: 390px;
+	min-width: 500px;
 }
