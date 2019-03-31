@@ -30,7 +30,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 500px;
+	min-width: 600px;
 
 }
 
@@ -46,7 +46,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 500px;
+	min-width: 600px;
 }
 
 #caracter{
@@ -59,7 +59,7 @@
 	background-color: white;
 	text-align: center;
 	padding: 2em;
-	min-width: 500px;
+	min-width: 600px;
 }
 
 #caracter2{
@@ -71,7 +71,7 @@
 #contato{
 	background-color: black;
 	padding: 2em;
-	min-width: 500px;
+	min-width: 600px;
 }	
 
 #titulo{
@@ -98,7 +98,7 @@
 	margin-top: 5em;
 	padding: 3em;
 	height: 700px;
-	min-width: 500px;
+	min-width: 576px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -228,5 +228,5 @@ footer{
 	text-transform: uppercase;
 	color: black;
 	text-align: center;
-	min-width: 500px;
+	min-width: 600px;
 }
