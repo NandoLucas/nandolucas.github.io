@@ -89,7 +89,7 @@
 	min-width: 415px;
 }
 #inicial{
-	backgroung-image: url(./imagens/1.jpg);
+	background-image: url(./imagens/1.jpg);
 	background-size: cover;
 }
 .link-imagem{
@@ -98,7 +98,7 @@
 }
 
 .img1{
-	margin-top: 5em;
+	margin-top: 3em;
 	padding: 3em;
 	height: 700px;
 	min-width: 576px;
