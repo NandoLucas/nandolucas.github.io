@@ -90,6 +90,7 @@
 }
 .container{
 	backgroung-image: url(./imagens/1.jpg);
+	background-size: cover;
 .link-imagem{
 	height: 50px;
 	width: 50px;
