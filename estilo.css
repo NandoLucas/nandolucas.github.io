@@ -88,7 +88,8 @@
 #row-imagens{
 	min-width: 415px;
 }
-
+.container{
+	backgroung-image: url(./imagens/1.jpg);
 .link-imagem{
 	height: 50px;
 	width: 50px;
