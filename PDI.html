@@ -2728,10 +2728,9 @@ int main(int argc, char** argv) {
                             <ul>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/filestorage.cpp">filestorage.cpp</a> como
-                                        base, crie um programa que gere uma imagem de dimensões 256x256 pixels
+                                        Crie um programa que gere uma imagem de dimensões 256x256 pixels
                                         contendo uma senóide de 4 períodos com amplitude de 127 desenhada na
-                                        horizontal, como aquela apresentada na <a href="#fig_filestorage">Figura 6</a> . Grave a imagem no formato PNG e
+                                        horizontal. Grave a imagem no formato PNG e
                                         no formato YML. Compare os arquivos gerados, extraindo uma linha de cada
                                         imagem gravada e comparando a diferença entre elas. Trace um gráfico da
                                         diferença calculada ao longo da linha correspondente extraída nas imagens. O que você observa?
@@ -3055,8 +3054,7 @@ int main(int argc, char** argv) {
                             <ul>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/histogram.cpp" class="bare">exemplos/histogram.cpp</a> como referência,
-                                        implemente um programa <code>equalize.cpp</code>. Este deverá, para cada
+                                        Implemente um programa <code>equalize.cpp</code>. Este deverá, para cada
                                         imagem capturada, realizar a equalização do histogram antes de
                                         exibir a imagem. Teste sua implementação apontando a câmera para
                                         ambientes com iluminações variadas e observando o efeito
@@ -3065,8 +3063,7 @@ int main(int argc, char** argv) {
                                 </li>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/histogram.cpp" class="bare">exemplos/histogram.cpp</a> como referência,
-                                        implemente um programa <code>motiondetector.cpp</code>. Este deverá
+                                        Implemente um programa <code>motiondetector.cpp</code>. Este deverá
                                         continuamente calcular o histograma da imagem (apenas uma componente
                                         de cor é suficiente) e compará-lo com o último histograma
                                         calculado. Quando a diferença entre estes ultrapassar um limiar
@@ -3088,8 +3085,7 @@ int main(int argc, char** argv) {
                             <ul>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/filtroespacial.cpp" class="bare">exemplos/filtroespacial.cpp</a> como
-                                        referência, implemente um programa <code>laplgauss.cpp</code>. O programa
+                                        Implemente um programa <code>laplgauss.cpp</code>. O programa
                                         deverá acrescentar mais uma funcionalidade ao exemplo fornecido,
                                         permitindo que seja calculado o laplaciano do gaussiano das imagens
                                         capturadas. Compare o resultado desse filtro com a simples aplicação
@@ -3110,8 +3106,7 @@ int main(int argc, char** argv) {
                             <ul>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/addweighted.cpp" class="bare">exemplos/addweighted.cpp</a> como referência,
-                                        implemente um programa <code>tiltshift.cpp</code>. Três ajustes deverão ser
+                                        Implemente um programa <code>tiltshift.cpp</code>. Três ajustes deverão ser
                                         providos na tela da interface:
                                     </p>
                                     <div class="ulist">
@@ -3135,8 +3130,7 @@ int main(int argc, char** argv) {
                                 </li>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/addweighted.cpp" class="bare">exemplos/addweighted.cpp</a> como referência,
-                                        implemente um programa <code>tiltshiftvideo.cpp</code>. Tal programa deverá ser
+                                        Implemente um programa <code>tiltshiftvideo.cpp</code>. Tal programa deverá ser
                                         capaz de processar um arquivo de vídeo, produzir o efeito de
                                         tilt-shift nos quadros presentes e escrever o resultado em outro
                                         arquivo de vídeo. A ideia é criar um efeito de miniaturização de
@@ -3160,13 +3154,13 @@ int main(int argc, char** argv) {
                         <div class="ulist">
                             <ul>
                                 <li>
-                                    <p>Utilizando os programa <a href="exemplos/dftimage.cpp" class="bare">exemplos/dftimage.cpp</a>, calcule e apresente o espectro de magnitude da imagem <a href="#fig_senoide256png">Figura 7</a>.</p>
+                                    <p>Calcule e apresente o espectro de magnitude de uma imagem.</p>
                                 </li>
                                 <li>
-                                    <p>Compare o espectro de magnitude gerado para a figura <a href="#fig_senoide256png">Figura 7</a> com o valor teórico da transformada de Fourier da senóide.</p>
+                                    <p>Compare o espectro de magnitude gerado com o valor teórico da transformada de Fourier da senóide.</p>
                                 </li>
                                 <li>
-                                    <p>Usando agora o <a href="exemplos/filestorage.cpp">filestorage.cpp</a>, mostrado na <a href="#exa_filestorage">Listagem 4</a> como referência, adapte o programa <a href="exemplos/dftimage.cpp" class="bare">exemplos/dftimage.cpp</a> para ler a imagem em ponto flutuante armazenada no arquivo YAML equivalente (ilustrado na <a href="#ex-senoideyml">Listagem 5</a>).</p>
+                                    <p>Usando agora o <em>filestorage.cpp</em>, adapte o programa <em>dftimage.cpp</em> para ler a imagem em ponto flutuante armazenada no arquivo YAML equivalente.</p>
                                 </li>
                                 <li>
                                     <p>Compare o novo espectro de magnitude gerado com o valor teórico da transformada de Fourier da senóide. O que mudou para que o espectro de magnitude gerado agora esteja mais próximo do valor teórico? Porque isso aconteceu?</p>
@@ -3185,8 +3179,7 @@ int main(int argc, char** argv) {
                             <ul>
                                 <li>
                                     <p>
-                                        Utilizando o programa <a href="exemplos/dftfilter.cpp" class="bare">exemplos/dftfilter.cpp</a> como referência,
-                                        implemente o filtro homomórfico para melhorar imagens com iluminação
+                                        Implemente o filtro homomórfico para melhorar imagens com iluminação
                                         irregular. Crie uma cena mal iluminada e ajuste os parâmetros do
                                         filtro homomórfico para corrigir a iluminação da melhor forma
                                         possível. Assuma que a imagem fornecida é em tons de cinza.
@@ -3526,7 +3519,7 @@ int main(int argc, char** argv) {
                         <div class="ulist">
                             <ul>
                                 <li>
-                                    <p>Utilizando o programa <a href="exemplos/kmeans.cpp">kmeans.cpp</a> como exemplo prepare um programa exemplo onde a execução do código se dê usando o parâmetro <code>nRodadas=1</code> e inciar os centros de forma aleatória usando o parâmetro <code>KMEANS_RANDOM_CENTERS</code> ao invés de <code>KMEANS_PP_CENTERS</code>. Realize 10 rodadas diferentes do algoritmo e compare as imagens produzidas. Explique porque elas podem diferir tanto.</p>
+                                    <p>Prepare um programa exemplo onde a execução do código se dê usando o parâmetro <code>nRodadas=1</code> e inciar os centros de forma aleatória usando o parâmetro <code>KMEANS_RANDOM_CENTERS</code> ao invés de <code>KMEANS_PP_CENTERS</code>. Realize 10 rodadas diferentes do algoritmo e compare as imagens produzidas. Explique porque elas podem diferir tanto.</p>
                                 </li>
                             </ul>
                         </div>
@@ -3562,7 +3555,7 @@ int main(int argc, char** argv) {
                             <div class="title">Figura 14. Caracteres ideais para o reconhecimento</div>
                         </div>
                         <div class="paragraph">
-                            <p>Usando o programa <a href="exemplos/morfologia.cpp">morfologia.cpp</a> como referência, crie um programa que resolva o problema da pré-filtragem de forma para reconhecimento dos caracteres usando operações morfológicas. Cuidado para deixar o ponto decimal separado dos demais dígitos para evitar um reconhecimento errado do número no visor.</p>
+                            <p>Crie um programa que resolva o problema da pré-filtragem de forma para reconhecimento dos caracteres usando operações morfológicas. Cuidado para deixar o ponto decimal separado dos demais dígitos para evitar um reconhecimento errado do número no visor.</p>
                         </div>
                     </div>
                 </div>
